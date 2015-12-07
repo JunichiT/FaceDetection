@@ -130,7 +130,8 @@ class APIError(Exception):
 class API(object):
     key = None
     secret = None
-    server = 'http://api.faceplusplus.com/'
+   # server = 'http://api.faceplusplus.com/'
+    server = 'https://apius.faceplusplus.com/v2/'
 
     decode_result = True
     timeout = None
