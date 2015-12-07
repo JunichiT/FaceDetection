@@ -56,7 +56,9 @@ jsonData = api.detection.detect(img=File(imagePath))
 smilingRates = findSmilingRate(jsonData)
 
 for rate in smilingRates:
-	print judge(rate)
+	#print judge(rate)
+	"""Suit the value range 0...1"""
+	print rate/100
 
 #print_result(jsonData)
 
