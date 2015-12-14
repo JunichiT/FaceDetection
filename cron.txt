@@ -1,0 +1,5 @@
+00  *  *  *  * python get_smile.py >> ~/Desktop/smile_tmp/score.txt
+
+00  2  *  *  * python send_smile_score.py
+
+05  *  *  *  * sleep `expr $RANDOM \% 3299`; imagesnap -w 2 -q ~/Desktop/smile_tmp/face_detection.png
